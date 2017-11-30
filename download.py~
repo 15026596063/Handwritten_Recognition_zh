@@ -1,0 +1,6 @@
+import os
+
+url = "http://www.nlpr.ia.ac.cn/databases/download/feature_data/HWDB1.1trn_gnt.zip"
+
+os.system('wget '+url+' -P ../output')  
+
